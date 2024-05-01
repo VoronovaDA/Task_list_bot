@@ -17,7 +17,7 @@ venv/Scripts/activate
 pip install -r requirements.txt
 ```
 ### В файле .env запишите свои данные PostgreSQL 
-### В файле settings.py создайте и введите TOKEN по инструкции
+### Создайте TOKEN по инструкции и добавьте в settings.py
 - https://www.cossa.ru/instahero/321374/
 ### Создайте и проведите миграции:
 ```
