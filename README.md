@@ -1,5 +1,5 @@
 # Телеграм-бот для записи задач
-## Стек: Python, Django, PostgreSQL
+#### Стек: Python, Django, PostgreSQL
 
 ### Для работы с приложением клонируйте репозиторий:
 ```
@@ -16,7 +16,9 @@ venv/Scripts/activate
 ```
 pip install -r requirements.txt
 ```
-### В файле .env запишите свои данные PostgreSQL
+### В файле .env запишите свои данные PostgreSQL 
+### В файле settings.py создайте и введите TOKEN по инструкции
+- https://www.cossa.ru/instahero/321374/
 ### Создайте и проведите миграции:
 ```
 python manage.py makemigrations
@@ -32,7 +34,8 @@ python manage.py createsuperuser
 ```
 python manage.py runserver
 ```
-### Ссылка на бота: 
+### Запустите бота:
 ```
-t.me/Need_to_write_it_down_bot
+python manage.py bot
 ```
+
