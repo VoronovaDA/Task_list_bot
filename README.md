@@ -4,7 +4,6 @@
 ### Для работы с приложением клонируйте репозиторий:
 ```
 git clone https://github.com/VoronovaDA/Task_list_bot.git
-
 ```
 ### Установите виртуальное окружение и зависимости:
 ```
@@ -16,7 +15,10 @@ venv/Scripts/activate
 ```
 pip install -r requirements.txt
 ```
-### В файле .env запишите свои данные PostgreSQL 
+### В файле .env запишите свои данные и создайте БД PostgreSQL 
+```
+createdb -U username dbname
+```
 ### Создайте TOKEN по инструкции и добавьте в settings.py
 - https://www.cossa.ru/instahero/321374/
 ### Создайте и проведите миграции:
